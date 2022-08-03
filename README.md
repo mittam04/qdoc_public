@@ -25,38 +25,38 @@ If the previous month folder is found then, it will start working on that folder
 4. Git
 
 ## Installation
-1. Clone the repo from [here](git@github.com:mittam04/qdoc.git). (This is a temporary location).
+1. Clone the repo (This is a temporary location).
 ```sh
-$ git clone git@github.com:mittam04/qdoc.git
+git clone git@github.com:mittam04/qdoc.git
 ```
 2. Go to the repo
 ```sh
-$ cd qdoc
+cd qdoc
 ```
 3. Create a Python virtual env
 ```sh
-$ python3 -m venv qdoc
+python3 -m venv qdoc
 ```
 4. Activate the env
 ```sh
-$ source ./qdoc/bin/activate
+source ./qdoc/bin/activate
 ```
 5. Update or upgrade pip
 ```sh
-$ pip install --upgrade pip
+pip install --upgrade pip
 ```
 6. Install the dependencies for the project.
 ```sh
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 7. Copy the `config.py.template` to `config.py`
 ```sh
-$ cp config.py.template config.py
+cp config.py.template config.py
 ```
 8. Replace the credentials
 9. Run the script
 ```sh
-$ python main.py
+python main.py
 ```
 
 ## Results
