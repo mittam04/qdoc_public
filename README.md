@@ -56,7 +56,8 @@ cp config.py.template config.py
 8. Replace the credentials
 9. Run the script
 ```sh
-python main.py
+# The input should be in this format only, first 3 Letters of the month
+python main.py "Jul 2022"
 ```
 
 ## Results
