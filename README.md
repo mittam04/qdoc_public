@@ -1,13 +1,6 @@
 # QDoc report generator
 
-
-## Requirements
-### Business
-1. There should be a contact file by this name `contact.xlsx` at root project location.
-
-2. Another folder with reports files should should in the root project location. 
-
-### Server
+### Server requirements
 1. Python >= 3.7
 2. Git (Optional, if source code has already been downloaded)
 
@@ -46,11 +39,9 @@ There are 2 input parameters required.
 2. Directory name where the output should be.
 
 ```sh
-python main.py source_dir_name output_dir_name
+python main.py source_dir_name output_dir_name contact_file_path
 ```
 
 * `source_dir_name` is variable
 * `output_dir_name` is variable
-
-
-> Note: `contact.xlsx` must me in the root dir, not in the `source_dir_name`.
+* `contact_file_path` is variable
